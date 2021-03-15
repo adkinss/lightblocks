@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "lightblocks",
+  "version": "${version}",
+
+  "name": "LightBlocks",
+  "description": "Decorative building blocks that provide light.",
+  "authors": [
+    "Zucan"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/lightblocks/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "zucan.lightblocks.LightBlocks"
+    ]
+  },
+  "mixins": [
+    "lightblocks.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  }
+}
